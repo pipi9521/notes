@@ -43,14 +43,16 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-syntax_highlighter: highlight.js
+syntax_highlighter: ''
 highlight:
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
+  enable: false
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -97,6 +99,24 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+
+theme_config:
+  scheme: Gemini
+  darkmode: true
+  avatar:
+    url: /images/avatar.gif
+    rounded: true
+  codeblock:
+    theme:
+      light: default
+      dark: stackoverflow-dark
+    prism:
+      light: prism
+      dark: prism-dark
+    copy_button:
+      enable: true
+      style: flat
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
