@@ -3,6 +3,7 @@ title: Markdown格式测试
 date: 2026-10-07 14:45:00
 tags: [测试]
 categories: [随笔]
+mathjax: true
 ---
 
 这是一篇格式测试文章，用来看看博客对各种 Markdown 语法的渲染效果。
