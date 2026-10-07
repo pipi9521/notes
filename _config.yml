@@ -122,3 +122,14 @@ theme_config:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Markdown-it 渲染器配置（支持脚注）
+markdown:
+  preset: default
+  render:
+    html: true
+    breaks: true
+    linkify: true
+    typographer: true
+  plugins:
+    - markdown-it-footnote
