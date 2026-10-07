@@ -1,0 +1,7 @@
+# Butterfly 主题配置
+# Docs: https://butterfly.js.org/
+
+# 数学公式（MathJax），按文章单独开启
+mathjax:
+  enable: true
+  per_page: true
